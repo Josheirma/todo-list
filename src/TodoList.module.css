@@ -1,0 +1,23 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #f4f4f4;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
+.deleteBtn {
+  background: transparent;
+  border: none;
+  color: #c00;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
